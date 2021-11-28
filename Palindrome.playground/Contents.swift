@@ -36,3 +36,8 @@ func isPalindrome2( _ value: String) -> Bool
     }
 }
 print(isPalindrome2("madam"))
+
+let name: String?=nil
+print(name )
+
+
