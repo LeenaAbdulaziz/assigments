@@ -12,7 +12,7 @@ struct Line{
     func Length()->Double{
         let p1=pow(end.x-start.x, 2)
         
-        let p2=pow(end.x-start.x, 2)
+        let p2=pow(end.y-start.y, 2)
         let sqr=sqrt(p1+p2)
         
         return sqr
